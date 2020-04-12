@@ -140,7 +140,7 @@ public class Controller {
     }
 
     private String splitLine(String line) {
-        String[] splitLine = line.split(";");
+        String[] splitLine = line.split(",");
         return splitLine[0];
     }
 
